@@ -1,4 +1,8 @@
-
+#bill{
+    font-size: 25px;
+    color: greenyellow;
+    background-color: black;
+}
 #calculator{
     margin: auto;
     margin-top: 50px;

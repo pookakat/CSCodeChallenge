@@ -35,3 +35,6 @@
     background-color: lightgray;
     font-size: 25px;
 }
+.number:hover{
+    text-shadow: greenyellow 5px 0 10px;
+    }

@@ -41,3 +41,6 @@
 .number:hover{
     text-shadow: yellow 5px 0 10px;
     }
+.number:active{
+    background-color: darkgrey;
+}

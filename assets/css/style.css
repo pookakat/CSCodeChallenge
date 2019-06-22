@@ -19,6 +19,9 @@
     background-color: black;
     font-family: 'Orbitron', sans-serif;
 }
+::placeholder{
+    color: greenyellow;
+}
 .number-row{
     justify-content: center;
     margin: auto;

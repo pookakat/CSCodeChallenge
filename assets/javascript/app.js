@@ -11,7 +11,7 @@ $('#bill').keydown(function(e) {
     function calcTip(amount){
         okTip(amount);
         goodTip(amount);
-        //greatTip(amount);
+        greatTip(amount);
     };
 
     function okTip(amount){
@@ -22,4 +22,9 @@ $('#bill').keydown(function(e) {
     function goodTip(amount){
         var tipTotal = amount * 0.2;
         alert("A good tip is usually 20%. Please leave " + tipTotal + " to satisfy that amount.");
+    };
+
+    function greatTip(amount){
+        var tipTotal = amount * 0.25;
+        alert("A great tip is usually 25% or more. Please leave at least " + tipTotal + " to satisfy that amount.");
     };

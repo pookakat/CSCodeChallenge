@@ -12,14 +12,14 @@
 </head>
 <body>
     <div id="entry">
-        <span id="welcome">
+        <div id="welcome">
             <p>Welcome to Tip Calculator 
             </p>
             <p>Please, enter the total amount of the bill...
             </p>        
-        </span>
+        </div>
         <div id="calculator">
-            <input type="number" id="bill" required name="bill" placeholder="0.00" min="0" step=".01">
+            <input type="text" id="bill" required name="bill" placeholder="0.00">
             <div id="number-row1" class="number-row">
                 <button class="number" id="1">1</button>
                 <button class="number" id="2">2</button>
@@ -40,6 +40,20 @@
                 <button class="number" id=".">.</button>
                 <button class="number" id="enter">Enter</button>
             </div>
+            <div class="number-row">
+                <button class="number" id="clear">Clear</button>
+            </div>
+        </div>
+        <div id="service-indicator">
+            <div id="fair" class="service">Fair</div>
+            <div id="good" class="service">Good</div>
+            <div id="great" class="service">Great</div>
+        </div>
+        <div id="the-end">
+            <button id="end" class="justButtons">Ok</button>
+        </div>
+        <div id="back-to-the-beginning">
+            <button id="back" class="justButtons">Go back?</button>
         </div>
     </div>
 </body>
